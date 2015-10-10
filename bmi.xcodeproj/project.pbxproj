@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1BEFA7FA1BC8955B00888F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFA7F91BC8955B00888F87 /* main.m */; };
+		1BEFA8021BC8957200888F87 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFA8011BC8957200888F87 /* Person.m */; };
+		1BEFA8051BC8A7D400888F87 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFA8041BC8A7D400888F87 /* Employee.m */; };
+		1BEFA81E1BC8C94200888F87 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFA81D1BC8C94200888F87 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		1BEFA7F61BC8955B00888F87 /* bmi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bmi; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEFA7F91BC8955B00888F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BEFA8001BC8957200888F87 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1BEFA8011BC8957200888F87 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1BEFA8031BC8A7D400888F87 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		1BEFA8041BC8A7D400888F87 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		1BEFA81C1BC8C94200888F87 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Asset.h; path = ../../Asset/Asset.h; sourceTree = "<group>"; };
+		1BEFA81D1BC8C94200888F87 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Asset.m; path = ../../Asset/Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		1BEFA7F81BC8955B00888F87 /* bmi */ = {
 			isa = PBXGroup;
 			children = (
+				1BEFA81C1BC8C94200888F87 /* Asset.h */,
+				1BEFA81D1BC8C94200888F87 /* Asset.m */,
 				1BEFA7F91BC8955B00888F87 /* main.m */,
+				1BEFA8031BC8A7D400888F87 /* Employee.h */,
+				1BEFA8041BC8A7D400888F87 /* Employee.m */,
+				1BEFA8001BC8957200888F87 /* Person.h */,
+				1BEFA8011BC8957200888F87 /* Person.m */,
 			);
 			path = bmi;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEFA8051BC8A7D400888F87 /* Employee.m in Sources */,
+				1BEFA8021BC8957200888F87 /* Person.m in Sources */,
+				1BEFA81E1BC8C94200888F87 /* Asset.m in Sources */,
 				1BEFA7FA1BC8955B00888F87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
